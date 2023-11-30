@@ -8,3 +8,24 @@ console.log(OTUdata);
 d3.url.then(function(data) {
     console.log(data);
 });
+
+let trace1 = {
+    x: "stand in",
+    y: "stand in",
+    text: "stand in",
+    name: "stand in",
+    type: "bar",
+    orientation: "h"
+};
+
+//Data array 
+let data = [trace1];
+
+//apply a title to the layout
+
+
+
+
+
+//render the plot 
+Plotly.newPlot("plot", data, layout)
